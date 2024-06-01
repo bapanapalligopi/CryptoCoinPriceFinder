@@ -9,7 +9,6 @@ function App() {
     <div className="app">
       <Navbar />
       <Routes>
-        <Route index path="/" element={<Home />} />
         <Route path="/" element={<Home />} />
         <Route path="/coin/:id" element={<Coin />} />
       </Routes>
